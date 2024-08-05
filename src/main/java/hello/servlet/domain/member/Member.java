@@ -17,4 +17,16 @@ public class Member {
         this.username = username;
         this.age = age;
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public int getAge() {
+        return age;
+    }
 }
